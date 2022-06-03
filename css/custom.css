@@ -51,7 +51,7 @@ span.badge.counts {
     top: -15px;
 }
 /* banner */
-.shop-btn i.fas.fa-arrow-right,.fa-shopping-basket,.fa-plus {
+.shop-btn i.fas.fa-arrow-right,.fa-shopping-basket,.section-blogs .fa-plus {
     font-size: 15px;
     width: 40px;
     height: 40px;
