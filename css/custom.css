@@ -1,0 +1,156 @@
+.maincolor{
+    color: #d19c97;
+}
+.mainbgcolor{
+    background-color: #d19c97;
+}
+.bgwhite{
+    background-color: #FFFFFF;
+}
+.maintext{
+    color: #6F6F6F;
+}
+.cusfa {
+    font-size: 40px;
+    border: 3px solid #818a91;
+    color: #d19c97;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 13px;
+    box-shadow: 0 3px 7px rgb(0 0 0 / 11%);
+    border-width: 0;
+    padding: 0.35em;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+/* topbar */
+.topbar-search .form-control,.subscribe-search .form-control{
+    border-radius: 50px;
+    height: 50px;
+}
+.topbar-search .input-group-append,.subscribe-search .input-group-append{
+    position: absolute;
+    right: 3px;
+    height: 44px;
+    top: 3px;
+}
+.topbar-search .input-group-append span,.subscribe-search .input-group-append span{
+    border-radius: 50px;
+    padding: 0 40px;
+}
+.faicons{
+    font-size: 20px;
+}
+span.badge.counts {
+    color: #ffffff;
+    border-radius: 50px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: -15px;
+}
+/* banner */
+.shop-btn i.fas.fa-arrow-right,.fa-shopping-basket,.fa-plus {
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    line-height: 2.5;
+}
+.shop-btn i.fas.fa-arrow-right:hover{
+    background-color: #d19c97!important;
+    color: #ffffff!important;
+}
+/* offer */
+.offer1{
+    background-image: url(http://demo2.themelexus.com/medilazar/wp-content/uploads/2020/11/banner-h3-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.offer2{
+    background-image: url(http://demo2.themelexus.com/medilazar/wp-content/uploads/2020/11/banner-h3-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.offer3{
+    background-image: url(http://demo2.themelexus.com/medilazar/wp-content/uploads/2020/11/banner-h3-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.offer4{
+    background-image: url(http://demo2.themelexus.com/medilazar/wp-content/uploads/2020/11/banner-h7-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* subscribe */
+.section-subscribe{
+    background-image: url(http://demo2.themelexus.com/medilazar/wp-content/uploads/2020/10/bgf-newsletter.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.subscribe-search .form-control{
+    border: 2px solid #e6e6e6;
+}
+/* products */
+.stars{
+    color: #fbb614;
+}
+.section-products .card-footer a:hover,.section-blogs .card-footer a:hover {
+    background-image: linear-gradient(to right,#d19c97 0,#d19c97 100%);
+    border-radius: 50px;
+    color: #ffffff!important;
+    padding: 0 15px 0 0!important;
+
+}
+.section-products .fa-heart{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: #f3f5f9;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #f3f5f9;
+}
+.section-products .fa-heart:hover{
+    background-color: #d19c97;
+    color: #ffffff;
+}
+/* shipping */
+.section-shipping {
+    background-image: url(http://demo2.themelexus.com/medilazar/wp-content/uploads/2020/11/bg-h7-1.jpg);
+    padding: 90px 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    letter-spacing: 2px;
+}
+/* about */
+.number-list-number{
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.n1{
+    border-color: #4bd7b8;
+}
+.n2{
+    border-color: #e18cc8;
+}
+.n3{
+    border-color: #ff500c;
+}
+/*  */
+.review{
+    background-image: url(http://demo2.themelexus.com/medilazar/wp-content/uploads/2020/11/bg-h7-2.jpg);
+}
