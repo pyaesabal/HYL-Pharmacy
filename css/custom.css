@@ -120,6 +120,27 @@ span.badge.counts {
     background-color: #d19c97;
     color: #ffffff;
 }
+.owl-prev,.owl-next{
+    font-size: 15px;
+    background: white;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    line-height: 2.5;
+    text-align: center;
+    align-items: center;
+}
+.owl-nav{
+    display: flex!important;
+    gap: 30px;
+    position: absolute;
+    top: -95px;
+    right: 0;
+}
+.owl-prev:hover,.owl-next:hover{
+    background-color: #d19c97;
+    color: #ffff;
+}
 /* shipping */
 .section-shipping {
     background-image: url(http://demo2.themelexus.com/medilazar/wp-content/uploads/2020/11/bg-h7-1.jpg);
