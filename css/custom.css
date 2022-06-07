@@ -24,6 +24,9 @@
     height: 70px;
     text-align: center;
 }
+.breadcrumb{
+    font-size: 20px;
+}
 /* topbar */
 .topbar-search .form-control,.subscribe-search .form-control{
     border-radius: 50px;
@@ -53,9 +56,9 @@ span.badge.counts {
 /* banner */
 .shop-btn i.fas.fa-arrow-right,.fa-shopping-basket,.section-blogs .fa-plus {
     font-size: 15px;
-    width: 40px;
-    height: 40px;
-    line-height: 2.5;
+    width: 35px;
+    height: 35px;
+    line-height: 2.3;
 }
 .shop-btn i.fas.fa-arrow-right:hover{
     background-color: #d19c97!important;
@@ -141,6 +144,13 @@ span.badge.counts {
     background-color: #d19c97;
     color: #ffff;
 }
+.section-products .dropdown-toggle::after{
+    margin-left: 3.255em;
+}
+.related-products .card:hover{
+    box-shadow: 0 3px 13px rgb(0 0 0 / 11%);
+
+}
 /* shipping */
 .section-shipping {
     background-image: url(http://demo2.themelexus.com/medilazar/wp-content/uploads/2020/11/bg-h7-1.jpg);
@@ -174,4 +184,10 @@ span.badge.counts {
 /*  */
 .review{
     background-image: url(http://demo2.themelexus.com/medilazar/wp-content/uploads/2020/11/bg-h7-2.jpg);
+}
+/* shop page */
+.grid-list{
+    gap: 20px;
+    display: flex;
+    font-size: 16px;
 }
