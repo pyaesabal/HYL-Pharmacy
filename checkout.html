@@ -28,7 +28,7 @@
 
 <body>
     <!-- Topbar Start -->
-    <div class="container-fluid mb-5 section-topbar">
+    <div class="container-fluid mb-3 section-topbar">
         <div class="row py-2 px-xl-5 mainbgcolor">
             <div class="col-lg-6 d-none d-lg-block text-white">
                 <span>Free Shipping for all Order of $99</span>
@@ -107,52 +107,48 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid bg-secondary mb-5">
-        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
-            <h1 class="font-weight-semi-bold text-uppercase mb-3">Checkout</h1>
-            <div class="d-inline-flex">
-                <p class="m-0"><a href="">Home</a></p>
-                <p class="m-0 px-2">-</p>
-                <p class="m-0">Checkout</p>
-            </div>
+    <div class="container-fluid px-0 mb-3 ">
+        <div class="d-inline-flex">
+            <p class="m-0"><a href="">Home</a></p>
+            <p class="m-0 px-2">-</p>
+            <p class="m-0">Checkout</p>
         </div>
     </div>
     <!-- Page Header End -->
 
 
     <!-- Checkout Start -->
-    <div class="container-fluid pt-5">
-        <div class="row px-xl-5">
-            <div class="col-lg-8">
+    <div class="container-fluid pt-5 bg-white rounded-lg">
+        <div class="text-center py-3">
+            <span class="font-weight-bold">Have a coupon?</span>
+            <span class="text-primary font-weight-bold"><a href="" data-toggle="collapse" data-target="#cuponcode">CLICK HERE TO ENTER YOUR CODE</a></span>
+            <div class="collapse w-50 mx-auto my-5 cart-collaterals" id="cuponcode">
+                <div class="cupon-cart py-5 px-xl-5">
+                    <p>If you have a coupon code, please apply it below.</p>
+                    <input class="form-control" type="text" placeholder="Cupon Code">
+                    <button class="btn rounded-pill btn-block btn-primary font-weight-bold my-3 py-2 w-50 mx-auto">Apply Cupon</button>
+                </div>
+            </div>
+        </div>                
+        <div class="row px-5 py-5">
+            <div class="col-lg-6">
                 <div class="mb-4">
                     <h4 class="font-weight-semi-bold mb-4">Billing Address</h4>
                     <div class="row">
-                        <div class="col-md-6 form-group">
-                            <label>First Name</label>
+                        <div class="col-12 form-group">
+                            <label>Name</label>
                             <input class="form-control" type="text" placeholder="John">
                         </div>
-                        <div class="col-md-6 form-group">
-                            <label>Last Name</label>
-                            <input class="form-control" type="text" placeholder="Doe">
-                        </div>
-                        <div class="col-md-6 form-group">
+                        <div class="col-12 form-group">
                             <label>E-mail</label>
                             <input class="form-control" type="text" placeholder="example@email.com">
                         </div>
-                        <div class="col-md-6 form-group">
+                        <div class="col-12 form-group">
                             <label>Mobile No</label>
                             <input class="form-control" type="text" placeholder="+123 456 789">
                         </div>
-                        <div class="col-md-6 form-group">
-                            <label>Address Line 1</label>
-                            <input class="form-control" type="text" placeholder="123 Street">
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <label>Address Line 2</label>
-                            <input class="form-control" type="text" placeholder="123 Street">
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <label>Country</label>
+                        <div class="col-12 form-group">
+                            <label>State</label>
                             <select class="custom-select">
                                 <option selected>United States</option>
                                 <option>Afghanistan</option>
@@ -160,17 +156,18 @@
                                 <option>Algeria</option>
                             </select>
                         </div>
-                        <div class="col-md-6 form-group">
+                        <div class="col-12 form-group">
                             <label>City</label>
-                            <input class="form-control" type="text" placeholder="New York">
+                            <select class="custom-select">
+                                <option selected>United States</option>
+                                <option>Afghanistan</option>
+                                <option>Albania</option>
+                                <option>Algeria</option>
+                            </select>
                         </div>
-                        <div class="col-md-6 form-group">
-                            <label>State</label>
-                            <input class="form-control" type="text" placeholder="New York">
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <label>ZIP Code</label>
-                            <input class="form-control" type="text" placeholder="123">
+                        <div class="col-12 form-group">
+                            <label>Address</label>
+                            <textarea class="form-control" type="text" placeholder="123 Street" rows="3"></textarea>
                         </div>
                         <div class="col-md-12 form-group">
                             <div class="custom-control custom-checkbox">
@@ -189,58 +186,47 @@
                 <div class="collapse mb-4" id="shipping-address">
                     <h4 class="font-weight-semi-bold mb-4">Shipping Address</h4>
                     <div class="row">
-                        <div class="col-md-6 form-group">
-                            <label>First Name</label>
+                        <div class="col-12 form-group">
+                            <label>Name</label>
                             <input class="form-control" type="text" placeholder="John">
                         </div>
-                        <div class="col-md-6 form-group">
-                            <label>Last Name</label>
-                            <input class="form-control" type="text" placeholder="Doe">
-                        </div>
-                        <div class="col-md-6 form-group">
+                        <div class="col-12 form-group">
                             <label>E-mail</label>
                             <input class="form-control" type="text" placeholder="example@email.com">
                         </div>
-                        <div class="col-md-6 form-group">
+                        <div class="col-12 form-group">
                             <label>Mobile No</label>
                             <input class="form-control" type="text" placeholder="+123 456 789">
                         </div>
-                        <div class="col-md-6 form-group">
-                            <label>Address Line 1</label>
-                            <input class="form-control" type="text" placeholder="123 Street">
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <label>Address Line 2</label>
-                            <input class="form-control" type="text" placeholder="123 Street">
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <label>Country</label>
+                        <div class="col-12 form-group">
+                            <label>State</label>
                             <select class="custom-select">
                                 <option selected>United States</option>
                                 <option>Afghanistan</option>
                                 <option>Albania</option>
                                 <option>Algeria</option>
                             </select>
-                        </div>
-                        <div class="col-md-6 form-group">
+                        </div>                        
+                        <div class="col-12 form-group">
                             <label>City</label>
-                            <input class="form-control" type="text" placeholder="New York">
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <label>State</label>
-                            <input class="form-control" type="text" placeholder="New York">
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <label>ZIP Code</label>
-                            <input class="form-control" type="text" placeholder="123">
+                            <select class="custom-select">
+                                <option selected>United States</option>
+                                <option>Afghanistan</option>
+                                <option>Albania</option>
+                                <option>Algeria</option>
+                            </select>
+                        </div>                        
+                        <div class="col-12 form-group">
+                            <label>Address</label>
+                            <textarea class="form-control" placeholder="123 Street" rows="3"></textarea>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="card border-secondary mb-5">
-                    <div class="card-header bg-secondary border-0">
-                        <h4 class="font-weight-semi-bold m-0">Order Total</h4>
+            <div class="col-lg-6 cart-collaterals">
+                <div class="card order-cart py-5 px-3">
+                    <div class="card-headers px-3 border-0">
+                        <h4 class="font-weight-semi-bold m-0">Your Order</h4>
                     </div>
                     <div class="card-body">
                         <h5 class="font-weight-medium mb-3">Products</h5>
@@ -272,12 +258,8 @@
                             <h5 class="font-weight-bold">$160</h5>
                         </div>
                     </div>
-                </div>
-                <div class="card border-secondary mb-5">
-                    <div class="card-header bg-secondary border-0">
-                        <h4 class="font-weight-semi-bold m-0">Payment</h4>
-                    </div>
-                    <div class="card-body">
+                    <div class="bg-white payment px-3 py-3">
+                        <h4 class="font-weight-semi-bold mb-3">Payment Method</h4>
                         <div class="form-group">
                             <div class="custom-control custom-radio">
                                 <input type="radio" class="custom-control-input" name="payment" id="paypal">
@@ -297,10 +279,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card-footer border-secondary bg-transparent">
-                        <button class="btn btn-lg btn-block btn-primary font-weight-bold my-3 py-3">Place Order</button>
-                    </div>
+                    <button class="btn rounded-pill btn-block btn-primary font-weight-bold my-3 py-3">Place Order</button>
                 </div>
+                
             </div>
         </div>
     </div>
