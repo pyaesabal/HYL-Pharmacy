@@ -1,4 +1,4 @@
-  =>  Template Name    : EShopper - Bootstrap Shop Template
+  =>  Template Name    : Htiyinlan Pharmacy
 
   =>  Template Link    : https://htmlcodex.com/bootstrap-shop-template
 
