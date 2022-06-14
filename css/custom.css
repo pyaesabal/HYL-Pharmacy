@@ -218,3 +218,31 @@ span.badge.counts {
 .section-cart .input-group-append button{
     height: 50px;
 }
+@media only screen and (max-width:768px){
+    .container-fluid{
+        padding: 0 15px!important;
+    }
+    .container-fluid.mb-5.p-0.section-banner{
+        padding: 0px!important;
+    }
+    .sectop{
+        display: inline-block;
+    }
+    .sectop .col-6{
+        max-width: 100%;
+    }
+    .logo{
+        width:70%;
+    }
+    .revert{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .offer1,.offer2,.offer3,.offer4,.review{
+        padding: 30px 20px!important;
+        text-align: left!important;
+    }
+    .section-trending .card-body{
+        width: 50%;
+    }
+}
