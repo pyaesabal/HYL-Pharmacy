@@ -111,6 +111,120 @@
         </div>
     </div>
     <!-- Topbar End -->
+    <div class="container-fluid">
+        <div class="row bg-white rounded-lg py-5 px-5">
+            <div class="col-3">
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-dashboard-tab" data-toggle="pill" href="#v-pills-dashboard" role="tab" aria-controls="v-pills-dashboard" aria-selected="true">Dashboard</a>
+                <a class="nav-link" id="v-pills-order-tab" data-toggle="pill" href="#v-pills-order" role="tab" aria-controls="v-pills-order" aria-selected="false">Orders</a>
+                <a class="nav-link" id="v-pills-address-tab" data-toggle="pill" href="#v-pills-address" role="tab" aria-controls="v-pills-address" aria-selected="false">Addresses</a>
+                <a class="nav-link" id="v-pills-accountdetail-tab" data-toggle="pill" href="#v-pills-accountdetail" role="tab" aria-controls="v-pills-accountdetail" aria-selected="false">Account Details</a>
+                <a class="nav-link" id="v-pills-logout-tab" data-toggle="pill" href="#v-pills-logout" role="tab" aria-controls="v-pills-logout" aria-selected="false">Logout</a>
+              </div>
+            </div>
+            <div class="col-9">
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-dashboard" role="tabpanel" aria-labelledby="v-pills-dashboard-tab">
+                    <p>Hello <strong>pyae pyae</strong> (not <strong>pyae pyae</strong>? Log out)</p>
+                    <p>From your account dashboard you can view your <strong>recent orders</strong>, manage your <strong>shipping and billing addresses</strong>, and <strong>edit your password and account details.</strong></p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-order" role="tabpanel" aria-labelledby="v-pills-order-tab">
+                    <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">Order No</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Total</th>
+                            <th scope="col">Action</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">#143</th>
+                            <td>16 June 2022</td>
+                            <td>Complete</td>
+                            <td>12000 KS</td>
+                            <td>View</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">#256</th>
+                            <td>17 June 2022</td>
+                            <td>Cancelled</td>
+                            <td>16500 KS</td>
+                            <td>View</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">#373</th>
+                            <td>18 June 2022</td>
+                            <td>Processing</td>
+                            <td>13000 KS</td>
+                            <td>View</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+                <div class="tab-pane fade" id="v-pills-address" role="tabpanel" aria-labelledby="v-pills-address-tab">
+                    <p>The following addresses will be used on the checkout page by default.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-flex justify-content-between align-items-center"><h3>Billing Address</h3><i class="fas fa-user-edit"></i></div>
+                            <p>Pyae Pyae</p>
+                            <p>09123456789</p>
+                            <p>Shwe Moe Kaung Condo,Yankin Township,Yangon</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex justify-content-between align-items-center"><h3>Shipping Address</h3><i class="fas fa-user-edit"></i></div>
+                            <p>Pyae Pyae</p>
+                            <p>09123456789</p>
+                            <p>Shwe Moe Kaung Condo,Yankin Township,Yangon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-accountdetail" role="tabpanel" aria-labelledby="v-pills-accountdetail-tab">
+                    <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                                <label for="inputFirstName">First Name</label>
+                                <input type="text" class="form-control" id="inputFirstName">
+                          </div>
+                          <div class="form-group col-md-6">
+                                <label for="inputLastName">Last Name</label>
+                                <input type="text" class="form-control" id="inputLastName">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputDisplayName">Display Name</label>
+                            <input type="text" class="form-control" id="inputDisplayName" placeholder="pyae pyae">
+                            <small id="displaynameHelp" class="form-text text-muted">This will be how your name will be displayed in the account section and in reviews</small>
+                         </div>
+                        <div class="form-group">
+                                <label for="inputEmail4">Email Address</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="pyaepyae@gmail.com">
+                        </div>  
+                        <fieldset>
+                            <legend>Password change</legend>
+                            <div class="form-group">
+                                <label for="exampleInputCurrentPassword">Current Password (leave blank to leave unchanged)</label>
+                                <input type="password" class="form-control" id="exampleInputCurrentPassword">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputNewPassword">New Password (leave blank to leave unchanged)</label>
+                                <input type="password" class="form-control" id="exampleInputNewPassword">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputConfirmPassword">Confirm New Password</label>
+                                <input type="password" class="form-control" id="exampleInputConfirmPassword">
+                            </div>
+                        </fieldset>                      
+                        <button type="submit" class="btn btn-primary rounded-pill">Save Changes</button>
+                      </form>
+                </div>
+                <div class="tab-pane fade" id="v-pills-logout" role="tabpanel" aria-labelledby="v-pills-logout-tab">Logout</div>
+              </div>
+            </div>
+        </div>
+    </div>
     
     <!-- Subscribe Start -->
     <div class="container-fluid mt-5 section-subscribe">
@@ -280,7 +394,6 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-</body>
+   </body>
 
 </html>

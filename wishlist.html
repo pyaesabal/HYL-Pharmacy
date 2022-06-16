@@ -24,6 +24,9 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <style>
+    
+    </style>
 </head>
 
 <body>
@@ -113,18 +116,25 @@
         <div class="d-inline-flex mb-5">
             <p class="m-0"><a href="index.html">Home</a></p>
             <p class="m-0 px-2">-</p>
-            <p class="m-0">Cart</p>
+            <p class="m-0">wishlist</p>
         </div>
         <div class="bg-white px-5 py-5 rounded-lg">
-            <h3>Cart</h3>
-            <div class="text-center">
-                <img class="img-fluid" src="img/empty-cart.png" alt="">
-                <h4 class="cart-empty">Your cart is currently empty.</h4>
-               <p class="return-to-shop py-5"><a href="shop.html" class="mainbgcolor rounded-pill text-white px-4 py-3">RETURN TO SHOP</a></p>
+            <h3>My wishlist</h3>
+            <div>
+                <table class="table table-borderless align-items-center">
+                    <tbody>
+                        <tr>
+                            <th scope="row"><button class="btn btn-sm"><i class="fa fa-times"></i></button></th>
+                            <td><a href="detail.html"><img class="img-fluid w-25" src="img/product1.jpg" alt=""></a></td>
+                            <td>Zahler Real Calm Multivitamin <a href="#">Quick View</a></td>
+                            <td>Remove</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
-
+    
     <!-- Subscribe Start -->
     <div class="container-fluid mt-5 section-subscribe">
         <div class="row justify-content-md-center">
@@ -146,8 +156,7 @@
             </div>
         </div>
     </div>
-    <!-- End Subscribe -->
-    
+        
     <!-- Footer Start -->
     <div class="container-fluid maintext bgwhite">
         <div class="row px-xl-5 pt-5 border-bottom">
@@ -293,6 +302,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+   </body>
 
 </html>
